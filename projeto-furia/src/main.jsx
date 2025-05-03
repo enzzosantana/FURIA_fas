@@ -6,6 +6,8 @@ import Jogos from "./pages/Jogos/jogos.jsx";
 import FuriaVideos from "./pages/Conteudo/FuriaVideos.jsx";
 import "./index.css";
 
+
+
 // configuração do react-router
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -32,8 +34,11 @@ const router = createBrowserRouter([
   }
 ]);
 
+
+
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>
-);
+)

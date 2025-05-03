@@ -6,17 +6,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 app = FastAPI()
 
 # Permitir CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], #http://localhost:5173 
+    allow_origins=["*"],  
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+print("Chave da API do YouTube carregada:", YOUTUBE_API_KEY)
+
 
 @app.get("/api/youtube")
 def get_youtube_videos():
