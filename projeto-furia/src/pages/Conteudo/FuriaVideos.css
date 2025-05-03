@@ -1,0 +1,140 @@
+/* Container geral dos cards */
+.container-videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  }
+
+
+.video-grid {
+  display: grid;  
+  grid-template-columns: repeat(4, 0fr);
+  gap: 24px;
+  padding: 32px;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+  
+  /* Card individual */
+.video-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+  
+.video-card:hover {
+  transform: translateY(-5px);
+}
+  
+  /* Imagem de capa */
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+}
+  
+  /* Área de texto */
+.video-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 300px;
+  height: 100%;
+  justify-content: space-between;
+}
+  
+  /* Título */
+.video-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #111;
+}
+  
+  /* Fonte YouTube */
+.video-source {
+  font-size: 14px;
+  color: #777;
+}
+  
+  /* Botão */
+.video-button {
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+  
+.video-button:hover {
+  background-color: #f0f0f0;
+}
+
+.espaco-voltar-button-video{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20%;
+  margin-bottom: 50px;
+}
+
+.button-voltar-video{
+  padding: 13px 30px 37px 30px;
+  text-align: center;
+  text-decoration: none;  
+  border-radius: 30px;
+  background-color: rgb(95, 92, 92);
+  border: none;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.button-voltar-video:hover {
+    background-color: #706f6f;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.button-sair-video{
+  padding: 13px 30px 37px 30px;
+  text-align: center;
+  text-decoration: none;  
+  border-radius: 30px;
+  background-color: rgb(95, 92, 92);
+  border: none;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.button-sair-video:hover {
+    background-color: #706f6f;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+
+  

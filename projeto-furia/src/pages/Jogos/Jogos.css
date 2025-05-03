@@ -1,0 +1,131 @@
+.container-jogos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.selecionar-jogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    background-color: darkgrey;
+    padding: 40px 40px 40px 40px; 
+    border-radius: 10px;
+    margin-top: 4%;
+
+}
+.text-jogos{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0px 0px 30px 0px;
+}
+
+.space-jogos{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5%; 
+  
+}
+
+.image {
+    border: 3px solid darkgray;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    transition: border 0.0s, box-shadow 0.3s;
+  }
+  
+.image.selecionado {
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+}
+  
+
+input[type="radio"]{
+    opacity: 0;
+}
+
+input[type="radio"] + label{
+    display: block;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.image{
+    width: 200px;
+}
+
+label:hover{
+    transform: scale(1.05);
+}
+
+.space-jogos img{
+    width: 300px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(146, 146, 146, 0.75);
+}
+
+.space-button-jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;    
+}
+
+.button-finalizar-jogos {
+    padding: 13px 30px 37px 30px;
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 30px;
+    background-color: rgb(95, 92, 92);
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.button-finalizar-jogos:hover {
+    background-color: #706f6f;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.button-voltar-jogos{
+    padding: 13px 30px 37px 30px;
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 30px;
+    background-color: rgb(95, 92, 92);
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.button-voltar-jogod:hover {
+    background-color: #706f6f;
+    color: #fff;
+    transition: 0.3s;
+}
