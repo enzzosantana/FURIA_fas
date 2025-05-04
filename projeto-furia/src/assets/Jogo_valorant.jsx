@@ -1,5 +1,5 @@
 const JogoValorant = () => {
-    return <img src="./img/valorant.jpg" alt="" className="Jogo_valorant" />;
+    return <img src="./public/valorant.jpg" alt="" className="Jogo_valorant" />;
   };
   
   export default JogoValorant;
