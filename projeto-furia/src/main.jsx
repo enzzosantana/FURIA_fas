@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Dados from "./pages/Dados/Dados.jsx";
 import Acessar from "./pages/Acesso/Acessar.jsx";
-import Jogos from "./pages/Jogos/jogos.jsx";
+import Jogos from "./pages/Jogos/Jogos.jsx";
 import FuriaVideos from "./pages/Conteudo/FuriaVideos.jsx";
 import "./index.css";
 
